@@ -1,0 +1,599 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  header {
+    width: 100%;
+    height: 59vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    background-position-x: -1vh;
+    background: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5vh;
+  }
+  
+  .nav {
+    display: flex;
+    margin: 1vh 15vw;
+    padding-right: 5px;
+    justify-content: space-between;
+    color: white;
+    font-size: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .nav h4{
+    font-size: 0.9rem;
+    font-weight: 550;
+    margin-top: 15px;
+    margin-left: -11px;
+  }
+  
+  .nav i{
+    font-size: 0.7rem;
+  }
+  
+  .nav-bar {
+    display: flex;
+  }
+  
+  .nav-bar li {
+    font-size: 1.25em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 350;
+    padding-left: 33px;
+    list-style: none;
+  }
+  
+  .head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4.7vh;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40vh;
+  }
+  
+  
+  
+  .head h3 {
+    font-size: 2.2em;
+    color: whitesmoke;
+    font-weight: 400;
+    margin-top: 2vw;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .search {
+    display: flex;
+    width: 50vw;
+    height: 6vh;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 0;
+  }
+  
+  .search input{
+      outline: none;
+      border: none;
+      width: 50%;
+      padding-left:10px ;
+      font-size: 15px;      
+  }
+  
+  .search .location-search{
+      width: 150px;
+  }
+  
+  .search p{
+      color: gray;
+      border-right:1px solid gray ;
+      font-size: 15px;
+      padding-right: 10px ;
+  }
+  
+  .search i:first-child{
+      font-size: 20px;
+      color: rgb(252, 119, 119);
+      padding-left: 10px;
+      padding-right: 10px;  
+  }
+  
+  .search i{
+      color: gray;
+      padding-left: 10px;
+  }
+  
+  .sec-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13vh;
+    
+    
+  }
+  
+  .box{
+    position: relative;
+    width: 360px;
+    cursor: pointer;
+    height: 33.5vh;
+    margin: 3px 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0px 1px grey;
+    background-color: rgb(243, 240, 240);
+  }
+  
+  .box img{
+    width: 100%;
+    margin-top: -9vh;
+    border-radius: 15px;
+    z-index: -1;
+  }
+  
+  .white{
+    position: absolute;
+    bottom: -10px;
+    align-items: center;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    width: 100%;
+    height: 37%;
+    z-index: 2;
+  }
+  
+  .white p{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 1em;
+    color: rgb(56, 56, 56);
+    letter-spacing: 0.7px;
+  }
+  
+  .white b{
+    font-weight: 540;
+    color: rgb(52, 52, 52);
+    font-size: 1.2rem;
+  }
+  
+  .middle{
+    margin: 50px 220px;
+  }
+  
+  
+  
+  .sec-2 h2{
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-top: -2.5vh;
+    margin-left: -10px;
+    margin-bottom: 10px;
+  }
+  
+  .sec-2 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: -10px;
+  }
+  
+  .sec-2 h6{
+    margin: 0;
+    font-size: 1.24rem;
+    font-weight: 370;
+    color: rgb(99, 98, 98);
+  }
+  
+  .fa-caret-right, .sec-2 span{
+    color: rgb(248, 117, 117);
+  }
+  
+  .box-1{
+    width: 255px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: -2vh;
+    margin-left: 1.6vh;
+  }
+  
+  .box-1 div{
+    position: absolute;
+    background: linear-gradient(transparent, black);
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: flex-end;
+    bottom: 0;
+  }
+
+  .box-1 div b{
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  
+  .box-1 div span:first-child{
+    display: inline-block;
+    color: white;
+    padding-left: 15px;
+    font-size: 0.9rem;
+    padding-bottom: 0px;
+  }
+  
+  .box-1 i{
+    color: white;
+    padding-bottom: 15px;
+  }
+  
+  .box-1 span{
+    color: white;
+  }
+  
+  .box-1 img{
+    width: 255px;
+    height: 300px; 
+    object-fit: cover;
+  }
+
+  .see-more{
+    margin-left: 110px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+
+  .sec-3{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 130px;
+    justify-content: center;
+  }
+
+  .middle .locations{
+    margin-left: -2vh;
+    margin-top: -2.6vh;
+    font-size: 2.3rem;
+    font-weight: 400;
+  }
+
+  .middle .locations span{
+    font-weight: 500;
+  }
+
+  .click{
+    cursor: pointer;
+  }
+  .middle h1{
+    font-size: 2.1rem;
+    font-weight: lighter;
+    text-align:left;
+    margin: 50px;
+    color:rgb(56, 56, 56);
+  }
+  .sec-4{
+    display: grid;
+    justify-content: center;
+    grid-column-gap:38px;
+    cursor: pointer;
+    margin-top: -2vh;
+    grid-row-gap: 18px;
+    grid-template-columns:340px 340px 340px ;
+    grid-template-rows: auto;
+  }
+
+
+  .box-2{
+    border: 1px solid rgb(235, 233, 233);
+    box-shadow:0 1px 3px rgb(226,223,223) ;
+    width: 360px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .box-2 div{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+  }
+
+  .box-2 div i{
+    font-size: 1.1em;
+    padding-bottom: 20px;
+    margin: 15px;
+  }
+
+  .box-2 div span{
+    color: rgb(65, 64, 64);
+    font-size: 1.2rem;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .bottom-location p{
+    font-weight: 350;
+    font-size: medium;
+    margin-top: 3px;
+  } 
+
+  .sec-5{
+    display: flex;
+    margin: 123px 0;
+    padding: 40px 0;
+    justify-content: center;
+    background-color: rgba(255, 249, 244, 0.849);
+  }
+  .flex{
+    display: flex;
+  
+  }
+  .contact{
+    width: 760px;
+    overflow: hidden;
+  
+  }
+  .contact img{
+    width: 255px;
+    height: 280px;
+    padding-left: 10px;
+    padding-right: 23px;
+    margin-top: 10vh;
+  }
+  .address{
+    width: 470px;
+    margin-top: -25px;
+    padding-left: 20px;
+  }
+  .address p{
+    padding-bottom: 10px;
+    font-size: 1.05rem;
+    max-width: 450px;
+    color: rgb(92, 91, 91);
+  }
+  .address h1{
+    font-size: 2.7rem;
+    font-weight: 500;
+    
+    margin-bottom: 25px;
+    color: rgb(34, 34, 34);
+  }
+  .radio{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 230px;
+    cursor: pointer;
+    padding-bottom: 20px;
+  }
+  .radio label{
+    font-size: 1.1rem;
+    color: rgb(49, 49, 49);
+  }
+  .radio [type="radio"]{
+    accent-color: rgb(255,92,92);
+    cursor: pointer;
+  }
+  .email{
+    position: relative;
+  }
+  .email input{
+    height: 43px;
+    border-radius: 5px;
+    width: 270px;
+    border: 1px solid rgb(207, 205, 205);
+    outline: rgb(255, 92, 92);
+    font-size: 1.3rem;
+    padding-left: 10px;
+  }
+  .place{
+    position: absolute;
+    font-size: 1.3rem;
+    left: 13px;
+    top: 8px;
+    color: gray;
+    font-weight: lighter;
+  }
+  .email button{
+    width: 150px;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 1px solid rgb(229, 52, 52);
+    background-color: rgb(236, 74, 101);
+    font-size: 1.1rem;
+    margin-left: 10px;
+    color: white;
+  }
+  .download{
+    font-size: 0.6rem;
+    margin-top: 27px;
+    margin-bottom: 0;
+  }
+
+  .address .download{
+    color: rgb(153, 153, 153);
+    font-weight: 200;
+  }
+
+  .app{
+    margin-top: -60px;
+    margin-left: -15px;
+  }
+  .app img{
+    width: 137px;
+    height: 40px;
+    cursor: pointer;
+  }
+
+  sec-6{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+
+  .end{
+    justify-content: center;
+    display: flex;
+    margin-top: -12vh;
+    margin-bottom: 5vh;
+  }
+
+  .end h1{
+    font-size: 2rem;
+    font-weight: 400;
+    
+  }
+
+  .explore{
+    border: 1px solid rgb(235, 233, 233);
+    box-shadow:0 1px 3px rgb(226,223,223);
+    height: 75px;
+    min-width: 1100px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .box-3{
+    border: 1px solid rgb(235, 233, 233);
+    cursor: pointer;
+    box-shadow:0 1px 3px rgb(226,223,223) ;
+    width: 1100px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  .box-3 div{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .box-3 span{
+    font-size: 1.3rem;
+  }
+  
+  .box-3 i{
+    font-size: 1.4rem;
+    color: gray;
+  }
+
+  .first img{
+    padding-left: 15px;
+    width: 128px;
+    height: 30px;
+  }
+
+  .sec-7{
+    margin-top: 1vh;
+    padding: 45px 200px;
+    background-color: rgba(248, 246, 246, 0.902);
+  }
+
+  .first{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .first-1{
+    display: flex;
+  }
+
+  .first-1 span{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgb(176, 176, 176);
+    border-radius: 5px;
+    margin-right: 20px;
+    height: 15px;
+    font-weight: 400;
+  }
+
+  .first-1 img{
+    height: 20px;
+    width: 23px;
+    padding-right: 10px;
+    margin-left: -2vh;
+  }
+
+  .second{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    margin-bottom: 40px;
+  }
+
+  .second div{
+    width: 200px;
+  }
+
+  .second h4{
+    font-weight: 500;
+    color: rgb(22,22,22);
+    white-space: nowrap;
+    letter-spacing: 2px;
+  }
+
+  .second a{
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 2px;
+    white-space: nowrap;
+    font-weight: 300;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: rgb(89, 89, 89);
+  }
+
+  .second img{
+    width: 137px;
+    height: 40px;
+    margin-top: 11px;
+    cursor: pointer;
+  }
+
+  .box-social{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-social div i{
+    margin-top: -3vh;
+  }
+
+  .box-4 i{
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .third{
+    padding: 10px 30px;
+    color: gray;
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-bottom: -10px;
+  }
